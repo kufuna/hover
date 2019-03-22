@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    background: black;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+/*.container{
+    pointer-events: none;;
+}
+
+button{
+    all: unset;
+    display: block;
+    width: 100%;
+}*/
+
+
+body{
+    /*overflow: hidden;*/
+}
+.container{
+    width: 100%;
+    transform: scale(0.5);
+    position: absolute;
+}
+.container:nth-child(2){
+    width: 100%;
+    transform: scale(0.5);
+    position: absolute;
+    display: none;  
+}
+
+
+
