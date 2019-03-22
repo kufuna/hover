@@ -194,9 +194,9 @@ for (var i = 0; i < ab.length; i++) {
         easing: Expo.easeInOut,
         speedIn: 2,
         speedOut: 2,
-        image1: '../images/lobiani.jpg',
-        image2: '../images/mountain.jpg',
-        displacementImage: '../images/displacement/4.png'
+        image1: 'images/lobiani.jpg',
+        image2: 'images/mountain.jpg',
+        displacementImage: 'images/displacement/4.png'
     });
 }
 
