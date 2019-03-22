@@ -192,8 +192,8 @@ for (var i = 0; i < ab.length; i++) {
         intensity2 : 1,
         angle : Math.PI / 4,
         easing: Expo.easeInOut,
-        speedIn: 2,
-        speedOut: 2,
+        speedIn: 0.5,
+        speedOut: 0.5,
         image1: 'images/lobiani.jpg',
         image2: 'images/mountain.jpg',
         displacementImage: 'images/displacement/4.png'
